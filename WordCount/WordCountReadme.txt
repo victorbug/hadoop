@@ -1,3 +1,7 @@
+#####################
+sudo /home/cloudera/cloudera-manager --force --express
+#####################
+
 ECLIPSE:
 New --> Java Project
 Poner los archivos Java (ver imagen en esta carpeta)
