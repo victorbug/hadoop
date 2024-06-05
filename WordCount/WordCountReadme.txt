@@ -1,6 +1,10 @@
 #####################
 sudo /home/cloudera/cloudera-manager --force --express
 #####################
+Activar servicios en (http://quickstart.cloudera:7180/cmf/home):
+-HDFS
+-YARN
+#####################
 
 ECLIPSE:
 New --> Java Project
