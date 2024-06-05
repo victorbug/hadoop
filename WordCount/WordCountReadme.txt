@@ -15,7 +15,7 @@ hdfs dfs -put finalWord.txt /user/cloudera
 
 hadoop jar FinalWordCount.jar WordCount finalWord.txt finalWordResult
 
-hdfs dfs -ls /user/cloudera/FinalWordResult
+hdfs dfs -ls /user/cloudera/finalWordResult
 
 El resultado esta en:
 hdfs dfs -cat /user/cloudera/finalWordResult/part-r-00000
