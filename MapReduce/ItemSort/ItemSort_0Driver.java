@@ -19,7 +19,7 @@ public class ItemSort_0Driver {
                 FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
                 job.setMapperClass(ItemSort_1Mapper.class);
-                job.setReducerClass(ItemSort_2Reducer_.class);
+                job.setReducerClass(ItemSort_2Reducer.class);
 
                 job.setMapOutputKeyClass(IntWritable.class);
                 job.setMapOutputValueClass(IntWritable.class);
