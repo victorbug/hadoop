@@ -13,7 +13,7 @@ throws IOException, InterruptedException {
            String[] tokens = line.split(","); // This is the delimiter between
            int keypart = Integer.parseInt(tokens[0]);
            int valuePart = Integer.parseInt(tokens[1]);
-           context.write(new IntWritable(valuePart), new IntWritable(keypart));
+           context.write(new IntWritable(valuePart), new IntWritable(keypart)); //Aquí esta la clave del script, invierte el orden (key,value)
 
 
 
