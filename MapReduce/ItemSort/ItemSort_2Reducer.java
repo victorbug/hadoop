@@ -3,7 +3,7 @@ import org.apache.hadoop.io.IntWritable;
 
 import org.apache.hadoop.mapreduce.Reducer;
 
-public class ItemSort_2Reducer_ extends Reducer<IntWritable, IntWritable,
+public class ItemSort_2Reducer extends Reducer<IntWritable, IntWritable,
 IntWritable, IntWritable> {
 @Override
         public void reduce(IntWritable key, Iterable<IntWritable> values,
