@@ -1,0 +1,17 @@
+JRE System Library JavaSE-1.7:
+charsets.jar
+dnsns.jar
+jce.jar
+jfr.jar
+jsse.jar
+localedata.jar
+resources.jar
+rt.jar
+sunec.jar
+sunjce_provider.jar
+sunpkcs11.jar
+zipfs.jar
+
+Referenced Libraries:
+hadoop-common-2.6.0-cdh5.13.0.jar
+hadoop-core-2.6.0-mr1-cdh5.13.0.jar
