@@ -4,9 +4,8 @@ El metodo fue probado con 2 matrices de dimensiones 2x2. Si se quiere probar otr
 -Matrix2_cols
 
 El metodo entra:
-9 veces a la clase mapper (deberian ser 8, quizas hay una pasada oculta al principio o al final)
-4 veces a reducer 
-(En cada una de las 8 pasadas calcula 2 numeros teniendo 16 valores. En cada vuelta se calcula un elemento de la matriz final. Reducer se multplican 2 de esos 16 valores y se suman a la multiplicacion de otros 2 de los 16 valores.Osea En cada bloquecito entran 4 valores y sale 1.
+-9 veces a la clase mapper (deberian ser 8, quizas hay una pasada oculta al principio o al final. En cada una de las 8 pasadas calcula 2 numeros teniendo 16 valores. En cada vuelta se calcula un elemento de la matriz final)
+-4 veces a reducer (Reducer se multplican 2 de esos 16 valores y se suman a la multiplicacion de otros 2 de los 16 valores.Osea En cada bloquecito entran 4 valores y sale 1)
 
 #####################
 sudo /home/cloudera/cloudera-manager --force --express
